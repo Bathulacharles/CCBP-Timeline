@@ -1,0 +1,31 @@
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.tags-item {
+  background-color: lightblue;
+  margin-right: 2%;
+  padding: 1%;
+  color: #1e293b;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,23 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.heading-course {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #171f46;
+  font-weight: 700;
+  margin-left: 20px;
+}
